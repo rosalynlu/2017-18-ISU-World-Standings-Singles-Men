@@ -15,6 +15,16 @@ The data types and descriptions for the attributes in my data are as follows:
 
 The ISU states that the algorithm used to obtain skaters' respective points is an "objective merit-based scoring" that is determined based on a skater's competition results of the preceding two seasons and the current season, and remains the basis for the draws at ISU events and part of the criteria for the selection of competitors for the ISU Grand Prix of Figure Skating and other ISU events designated by the ISU Council. Any fault regarding possible bias in point awardment lies with the algorithm.
 
+### Analysis
+
+The histogram that displays the trend of points distribution between skaters is right-skewed, with a long tail on the left side of the graph. There are more than 100 skaters who had a ranking score of 0-500, there are three skaters who had a ranking score of 4000-5000, and there are only two skaters who had a ranking score of at least 5000.
+
+The top three countries that have the most active skaters are Japan ("JPN"), United States ("USA"), and Russia ("RUS"). Russia has the most active skaters, followed by the United States, and then followed by Japan. Many countries only have one active skater, such as Latvia ("LAT"), Uzbekistan ("UZB"), Philippines ("PHI"), Azerbaijan ("AZE"), and Thailand ("THA"), among others.
+
+As the rank number of a figure skater goes up (actual rank goes down), the less points the skater has. The graph that displays this trend resembles an exponential graph with a rate of growth that is less than 1. With lower rank numbers (higher actual ranks), the points are more dispersed and far apart, and with higher rank numbers (lower actual ranks), the points are closer and crowded together.
+
+The mean, median, and quartiles of the box plot that displays the trend of points distribution between skaters are centered around the 1000 mark value. There are no outliers on the lower end, but there are many on the upper end.
+
 ### MIT License
 
 Copyright (c) 2023 rosalynlu
